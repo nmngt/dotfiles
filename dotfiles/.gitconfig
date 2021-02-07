@@ -1,0 +1,25 @@
+[user]
+	name = Norman Georg-Tusel
+	email = norm@ngeorg.com
+[credential]
+  helper = osxkeychain
+[init]
+  defaultBranch = main
+[push]
+  default = current
+[color]
+  ui = auto
+[core]
+  excludesfile = ~/.gitignore
+  autocrlf = input
+  editor = vim
+[merge]
+  ff = only
+[commit]
+  template = ~/.gitmessage
+[include]
+  path = ~/.gitconfig.local
+[diff]
+  colorMoved = zebra
+# [status]
+# 	showUntrackedFiles = all
